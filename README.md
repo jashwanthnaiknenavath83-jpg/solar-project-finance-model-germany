@@ -25,6 +25,22 @@ Random inputs: power price, specific yield, CAPEX, interest rate.
 | Probability of equity IRR >= 8% | 62% |
 | Probability of equity IRR < 0% | 3.3% |
 
+## PPA vs. merchant comparison (3,000 runs each)
+Debt is sized once on a lender's conservative case (55 EUR/MWh for merchant,
+the PPA price for the PPA case) and then held fixed while the realised price varies.
+
+| | Merchant | PPA (65 EUR/MWh) |
+|---|---|---|
+| Average gearing | 60% | 70% |
+| Mean equity IRR | 8.2% | 7.7% |
+| P10 / P90 | 2.6% / 13.9% | 5.1% / 10.3% |
+| Std. dev. of IRR | 4.5% | 2.1% |
+| P(IRR < 0%) | 4.3% | 0.0% |
+| P(min DSCR < 1.0x) | 2.1% | 0.0% |
+
+**Finding:** a PPA trades about 0.5 points of expected equity IRR for less than
+half the volatility, no loss scenarios, and about 10 points more debt capacity.
+The 65 EUR/MWh PPA price and 55 EUR/MWh lender sizing price are assumptions.
 **Main finding:** power price drives most of the return variation
 (correlation with equity IRR: 0.92, versus 0.26 for yield).
 Leverage helps only when project IRR exceeds the cost of debt.
@@ -41,10 +57,9 @@ and click Runtime > Run all.
 ## Limitations
 - Flat price, no inflation or price curve
 - No loss carry-forward, reserve accounts or construction period
-- Debt is re-sized in every run, so DSCR does not show default risk
+- Same interest rate in both cases; in practice merchant debt costs more
 - Input distributions are assumptions, not fitted to data
 
 ## Next steps
 - Replace placeholders with sourced data (PVGIS yield, SMARD prices, cost reports)
-- Add PPA vs. merchant comparison
 - Add fixed-debt case to test default risk (DSCR < 1.0x)

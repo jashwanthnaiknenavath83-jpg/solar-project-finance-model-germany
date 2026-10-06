@@ -74,7 +74,7 @@ and click Runtime > Run all.
 - Power price, CAPEX, OPEX and debt terms are not yet sourced
 
 ## Next steps
-- Replace the 70 EUR/MWh placeholder with a solar capture price derived from SMARD data
+- Restructure the scenarios: merchant at the solar capture price (~46 EUR/MWh), EEG tender award (~48 EUR/MWh, latest Bundesnetzagentur round), and PPA
 - Source CAPEX and OPEX from published cost studies
 - Source debt terms (margin, tenor, DSCR) from market references
 

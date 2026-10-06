@@ -49,7 +49,7 @@ no loss scenarios, and about 10 points more debt capacity.
 |---|---|---|
 | Specific yield | 1,049 kWh/kWp/year | PVGIS-SARAH3, 52.509 N 13.415 E, fixed 35 deg south, 14% losses |
 | Yield spread (1 sd) | 60.6 kWh/kWp (5.8%) | PVGIS year-to-year variability |
-| Power price | | Power price | Model still uses 70 EUR/MWh (sd 12), placeholder | SMARD day-ahead DE-LU, 2024 to 2025: baseload 78.5 / 89.3 EUR/MWh, but solar capture price only 46.2 / 46.1 EUR/MWh (capture rate 59% / 52%). The model will be updated to use the capture price |
+| Power price |70 EUR/MWh | Power price | Model still uses 70 EUR/MWh (sd 12), placeholder | SMARD day-ahead DE-LU, 2024 to 2025: baseload 78.5 / 89.3 EUR/MWh, but solar capture price only 46.2 / 46.1 EUR/MWh (capture rate 59% / 52%). The model will be updated to use the capture price |
 | Degradation | 0.4% per year | Placeholder |
 | CAPEX | 600,000 EUR/MW | Placeholder |
 | OPEX | 12,000 EUR/MW/year | Placeholder |

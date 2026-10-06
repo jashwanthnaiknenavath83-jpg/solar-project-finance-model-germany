@@ -77,3 +77,5 @@ and click Runtime > Run all.
 - Replace the 70 EUR/MWh placeholder with a solar capture price derived from SMARD data
 - Source CAPEX and OPEX from published cost studies
 - Source debt terms (margin, tenor, DSCR) from market references
+
+Market data: Bundesnetzagentur | SMARD.de (CC BY 4.0)

@@ -44,6 +44,21 @@ the PPA price for the PPA case) and then held fixed while the realised price var
 A PPA trades about 0.4 points of expected equity IRR for half the volatility,
 no loss scenarios, and about 10 points more debt capacity.
 
+## Scenario analysis with sourced inputs
+Inputs: Fraunhofer ISE (2024) for CAPEX, OPEX, lifetime, degradation, debt terms and the 6.5% equity return benchmark; PVGIS for yield; SMARD for the solar capture price (46.1 EUR/MWh, 2025); Bundesnetzagentur for the EEG tender award (47.9 EUR/MWh, July 2026).
+The model reproduces Fraunhofer ISE's 2024 generation cost range for ground-mounted PV (4.1 to 6.9 ct/kWh) when run with their inputs.
+
+Flat power price needed for a 6.5% equity return:
+
+| CAPEX (EUR/kWp) | Central/East (1,049 kWh/kWp) | South (~1,215 kWh/kWp) |
+|---|---|---|
+| 700 | 65.3 | 56.4 |
+| 800 | 72.8 | 62.8 |
+| 900 | 80.3 | 69.3 |
+
+Reference prices: solar capture price 46.1 EUR/MWh, EEG award 47.9 EUR/MWh.
+In this simplified model, neither merchant sales nor a tender-level EEG award reaches 6.5% in any scenario; site yield and CAPEX decide the gap.
+
 ## Assumptions and sources
 | Input | Value | Source |
 |---|---|---|
@@ -52,6 +67,8 @@ no loss scenarios, and about 10 points more debt capacity.
 | Lifetime / degradation | 30 years / 0.25% per year | Fraunhofer ISE (2024), Table 2, p. 13 |
 | Debt terms | 80% debt at 5.0% interest | Fraunhofer ISE (2024), Table 2, p. 13 |
 | Return on equity (benchmark) | 6.5% | Fraunhofer ISE (2024), Table 2, p. 13 |
+| South yield | ~1,215 kWh/kWp | Approximation: PVGIS Central/East value scaled by 1,280 / 1,105 (Fraunhofer ISE Table 3) |
+| EEG award | 47.9 EUR/MWh | Bundesnetzagentur, ground-mounted solar tender, 1 July 2026 |
 
 ## Methodology
 25-year annual model: generation with yearly degradation, merchant revenue, OPEX,

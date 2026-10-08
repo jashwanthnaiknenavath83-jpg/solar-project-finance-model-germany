@@ -47,14 +47,11 @@ no loss scenarios, and about 10 points more debt capacity.
 ## Assumptions and sources
 | Input | Value | Source |
 |---|---|---|
-| Specific yield | 1,049 kWh/kWp/year | PVGIS-SARAH3, 52.509 N 13.415 E, fixed 35 deg south, 14% losses |
-| Yield spread (1 sd) | 60.6 kWh/kWp (5.8%) | PVGIS year-to-year variability |
-| Power price | Model still uses 70 EUR/MWh (sd 12), placeholder | SMARD day-ahead DE-LU, 2024 to 2025: baseload 78.5 / 89.3 EUR/MWh, but solar capture price only 46.2 / 46.1 EUR/MWh (capture rate 59% / 52%). The model will be updated to use the capture price |
-| Degradation | 0.4% per year | Placeholder |
-| CAPEX | 600,000 EUR/MW | Placeholder |
-| OPEX | 12,000 EUR/MW/year | Placeholder |
-| Tax rate | 30% | Approximate German corporate and trade tax |
-| Debt terms | 5% interest, 1.25x DSCR, 18-year tenor, 75% max gearing | Placeholders |
+| CAPEX | 700 to 900 EUR/kWp (scenario range) | Fraunhofer ISE (2024), Levelized Cost of Electricity, Table 1, p. 11 |
+| OPEX | 13.3 EUR/kW/year | Fraunhofer ISE (2024), Table 2, p. 13 |
+| Lifetime / degradation | 30 years / 0.25% per year | Fraunhofer ISE (2024), Table 2, p. 13 |
+| Debt terms | 80% debt at 5.0% interest | Fraunhofer ISE (2024), Table 2, p. 13 |
+| Return on equity (benchmark) | 6.5% | Fraunhofer ISE (2024), Table 2, p. 13 |
 
 ## Methodology
 25-year annual model: generation with yearly degradation, merchant revenue, OPEX,

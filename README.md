@@ -47,6 +47,7 @@ no loss scenarios, and about 10 points more debt capacity.
 ## Scenario analysis with sourced inputs
 Inputs: Fraunhofer ISE (2024) for CAPEX, OPEX, lifetime, degradation, debt terms and the 6.5% equity return benchmark; PVGIS for yield; SMARD for the solar capture price (46.1 EUR/MWh, 2025); Bundesnetzagentur for the EEG tender award (47.9 EUR/MWh, July 2026).
 The model reproduces Fraunhofer ISE's 2024 generation cost range for ground-mounted PV (4.1 to 6.9 ct/kWh) when run with their inputs.
+Result is robust to financing terms: DSCR 1.15 to 1.25x and tenor 18 to 20 years change the required price by at most 1.5 EUR/MWh.
 
 Flat power price needed for a 6.5% equity return:
 

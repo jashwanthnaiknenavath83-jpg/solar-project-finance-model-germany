@@ -8,7 +8,8 @@ Project finance model with Monte Carlo risk analysis, built in Python.
 
 **Summary:** at tender-level prices (about 48 EUR/MWh) none of the modelled scenarios reaches a 6.5% equity return. The best case (southern site, CAPEX 700 EUR/kWp) needs about 56 EUR/MWh. Financing terms barely change this; site yield and CAPEX decide.
 
-## Key results (base case: 70 EUR/MWh merchant price)
+## Earlier prototype results (placeholder inputs, 70 EUR/MWh price)
+The sections below (key results, Monte Carlo, PPA vs. merchant) come from the first prototype in notebook 01, which used placeholder inputs. The main analysis is notebook 03 and the investment memo above.
 | Metric | Value |
 |---|---|
 | Post-tax project IRR | 6.5% |

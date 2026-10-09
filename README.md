@@ -2,8 +2,7 @@
 
 Project finance model with Monte Carlo risk analysis, built in Python.
 
-**Status:** prototype. Yield is sourced from PVGIS. Power price, CAPEX, OPEX and
-debt terms are still placeholder assumptions that I am replacing with sourced data.
+**Status:** complete first version. Inputs are sourced from PVGIS, SMARD, Fraunhofer ISE and Bundesnetzagentur; tax, DSCR and tenor are placeholders, and results are insensitive to DSCR and tenor. Main analysis: `notebooks/03_scenario_model.ipynb`.
 
 **Investment memo (2 pages):** [memo/investment_memo_solar_pv_germany.pdf](memo/investment_memo_solar_pv_germany.pdf)
 

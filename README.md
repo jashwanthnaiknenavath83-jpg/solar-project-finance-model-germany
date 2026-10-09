@@ -5,6 +5,10 @@ Project finance model with Monte Carlo risk analysis, built in Python.
 **Status:** prototype. Yield is sourced from PVGIS. Power price, CAPEX, OPEX and
 debt terms are still placeholder assumptions that I am replacing with sourced data.
 
+**Investment memo (2 pages):** [memo/investment_memo_solar_pv_germany.pdf](memo/investment_memo_solar_pv_germany.pdf)
+
+**Summary:** at tender-level prices (about 48 EUR/MWh) none of the modelled scenarios reaches a 6.5% equity return. The best case (southern site, CAPEX 700 EUR/kWp) needs about 56 EUR/MWh. Financing terms barely change this; site yield and CAPEX decide.
+
 ## Key results (base case: 70 EUR/MWh merchant price)
 | Metric | Value |
 |---|---|

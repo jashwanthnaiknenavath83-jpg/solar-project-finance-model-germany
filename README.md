@@ -97,4 +97,9 @@ and click Runtime > Run all.
 - Source CAPEX and OPEX from published cost studies
 - Source debt terms (margin, tenor, DSCR) from market references
 
-Market data: Bundesnetzagentur | SMARD.de (CC BY 4.0)
+## Data and credits
+- Market data: Bundesnetzagentur | SMARD.de (CC BY 4.0)
+- Solar yield: PVGIS, European Commission Joint Research Centre
+- Cost and financing assumptions: Fraunhofer ISE (2024), Levelized Cost of Electricity - Renewable Energy Technologies
+- Tender results: Bundesnetzagentur
+Code is released under the MIT License. Data files remain under their original licenses.
